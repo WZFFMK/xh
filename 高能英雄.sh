@@ -1,6 +1,6 @@
 rm -rf nohup.out
 cp lib/temp /data/tempp
-cp lib/temppubg /data/tempp2
+cp lib/tempgn /data/tempp2
 chmod 777 /data/tempp*
 chmod 777 /data/tempp*
 name=$(tr -dc \'a-z\' < /dev/urandom | head -c 6)
